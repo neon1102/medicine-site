@@ -1,0 +1,450 @@
+
+@import url(https://fonts.googleapis.com/css?family=Yeseva+One:regular&subset=cyrillic);
+@import url(https://fonts.googleapis.com/css?family=Alegreya+Sans+SC:100,100italic,300,300italic,regular,italic,500,500italic,700,700italic,800,800italic,900,900italic&subset=cyrillic);
+
+
+/*-----------------------------------------*/
+
+#Title{
+    text-align: left;
+    display: inline-block;
+    float: left;
+}
+
+#Title a{
+    color: rgb(162, 13, 20);
+    padding: 35px;
+    border-right: 1px black solid;
+}
+
+#Title h1 {
+	font-family: 'Yeseva One';
+	font-size: 56px;
+    text-align: center;
+    display: inline-block;
+}
+
+/*-----------------------------------------*/
+
+h1 {
+	font-family: 'Yeseva One';
+	font-size: 25px;
+    font-weight: 400;
+    text-align: center;
+    display: inline-block;
+}
+
+h2 {
+	font-family: 'Alegreya Sans SC';
+	font-size: 30px;
+	line-height: 0.98;
+	font-weight: 400;
+}
+
+p {
+	font-family: 'Verdana';
+	font-size: 14px;
+	line-height: 1.4;
+}
+
+
+html{
+	height: 100%;
+	margin: 0px;
+	padding: 0px;
+}
+
+body{
+	height: 100%;
+	padding: 0px;
+	margin: 0px;
+    background: #fafafa;
+}
+
+
+#header{
+	width: 100%;
+    text-align: left;
+	background: white;
+}
+
+.main_window{
+	height: 100%;
+	
+}
+
+.fixed{
+    height: 100%;
+    max-width: 1100px;
+    min-width: 1100px;
+	
+}
+
+#navigation{
+    width: 100%;
+    height: 50px;
+    background: #507490;
+    text-align: right;
+}
+
+.nav{
+    margin-top: 20px;
+    float: left;
+}
+.nav a{
+    color: #507490;
+    padding: 25px;
+    
+}
+
+.nav a:hover{
+    color: white;
+    transition: 1s;
+    background: rgb(162, 13, 20);
+    padding: 25px;
+    
+}
+
+.nav ul{
+    padding: 10px;
+    padding-left: 130px;
+}
+
+.nav ul li{
+    display: inline-block;
+}
+
+
+#footer{
+	height: 100px;
+	background: #507490;
+	position: relative;
+    clear: both;
+}
+
+#menu{
+	float: left;
+	width: 30%;
+    clear: both;
+}
+
+.aside{
+    text-align: left;
+    border: 1px solid #507490;
+    border-bottom-right-radius: 15px;
+    border-bottom-left-radius: 15px;
+    margin-bottom: 15px;
+}
+
+.aside ul{
+    padding: 0;
+    margin: 0;
+}
+
+.aside a{
+    font-family: 'Arial';
+    font-weight: 700;
+    padding: 10px;
+    color: #507490;
+    margin: 5px;
+}
+
+.aside ul li{
+    list-style: none;
+    margin: 5px;
+    padding: 5px;
+    border: 1px solid #507490;
+    border-radius: 15px;
+    background: #fafafa;
+}
+
+.aside ul li:hover{
+
+}
+
+.drop_menu{
+    display: none;
+
+}
+
+.shop{
+    background: #507490;
+    color: white;
+    border-top-left-radius: 15px;
+    border-top-right-radius: 15px;
+}
+
+#menu h1{
+    font-family: 'Arial';
+	color: white;
+    font-size: 15pt;
+    padding: 0px;
+    margin: 15px;
+}
+
+#content{
+    padding-left: 1%;
+    float: left;
+	width: 69%;
+	
+}
+.main_box{
+    padding-left: 100px;
+}
+.box_content{
+    width: 200px;
+    height: 200px;
+    border-radius: 15px;
+    border: 1px solid #507490;
+    margin: 1px;
+    float: left;
+}
+.DoctorOnHouse{
+    background-image: url('content\\boxImage\\DoctorOnHouse.png');
+    background-repeat: no-repeat;
+    background-size: cover;
+}
+
+.Registration{
+    background-image: url('content\\boxImage\\Registration.png');
+    background-repeat: no-repeat;
+    background-size: cover;
+}
+
+.Registration:hover{
+    background-image: url('content\\boxImage\\Registration_hover.png');
+    background-repeat: no-repeat;
+    background-size: cover;
+}
+
+.Insurance{
+    background-image: url('content\\boxImage\\Insurance.png');
+    background-repeat: no-repeat;
+    background-size: cover;
+}
+
+.Invalid{
+    background-image: url('content\\boxImage\\Invalid.png');
+    background-repeat: no-repeat;
+    background-size: cover;
+}
+
+.Case{
+    background-image: url('content\\boxImage\\Case.png');
+    background-repeat: no-repeat;
+    background-size: cover;
+}
+
+.More{
+    background-image: url('content\\boxImage\\More.png');
+    transition: 0.25s;
+    background-repeat: no-repeat;
+    background-size: cover;
+}
+
+.More:hover{
+    background-image: url('content\\boxImage\\More_hover.png');
+    transition: 0.25s;
+    background-repeat: no-repeat;
+    background-size: cover;
+}
+
+.slider_box{
+    top: 0;
+    left: 0;
+    position: relative;
+    overflow: hidden;
+    width: 100%;
+    height: 500px;
+    background-size: cover;
+    margin-bottom: 10px;
+    border-radius: 15px;
+    border: 1px solid #6E8BA2;
+    clear: both;
+}
+
+.slider{
+    position: relative;
+    width: 10000px;
+    height: 500px;
+}
+
+.slider img{
+    float: left;
+    width: 800px;
+    height: 500px;
+    background-size: cover;
+}
+.slider_two{
+    width: 100%;
+    height: 500px;
+    background-size: cover;
+    background-image: url(content//slideImage//2.jpg);
+    margin-bottom: 10px;
+    border-radius: 15px;
+}
+
+.slider_three{
+    width: 100%;
+    height: 500px;
+    position: absolute;
+    background-size: cover;
+    background-image: url(content//slideImage//3.jpg);
+    margin-bottom: 10px;
+    border-radius: 15px;
+}
+
+.prev{
+    top: 50%;
+    left: -30px;
+    width: 25px;
+    height: 50px;
+    line-height: 50px;
+    background: #507490;
+    text-align: center;
+    font-size: 30px;
+    text-align: right;
+    z-index: 10;
+    position: absolute;
+    border-radius: 5px;
+}
+.prev a{
+    padding: 5px;
+    color: white;
+    text-decoration: none;
+}
+
+.next{
+    top: 50%;
+    right: -30px;
+    width: 25px;
+    height: 50px;
+    line-height: 50px;
+    background: #507490;
+    text-align: center;
+    font-size: 30px;
+    text-align: right;
+    z-index: 10;
+    position: absolute;
+    border-radius: 5px;
+}
+.next a{
+    padding: 5px;
+    color: white;
+    text-decoration: none;
+}
+
+.information{
+    width: 100%;
+    border: 1px solid #507490;
+    clear: both;
+    padding-top: 1px;
+    margin-bottom: 5px;
+    border-radius: 15px;
+}
+
+.information a{
+    font-family: 'Arial';
+    font-size: 25px;
+    font-weight: 500;
+    color: white;
+    text-decoration: none;
+}
+
+.title_txt{
+    background: #A20D14;
+    margin: 5px;
+    border-radius: 15px;
+    clear: both;
+}
+.txt{
+    padding: 20px;
+    display: none;
+}
+.txt p{
+    font-family: 'arial';
+    text-align: justify;
+}
+
+.txt h1{
+    font-family: 'Yeseva One';
+	font-size: 56px;
+    text-align: center;
+    display: inline-block;
+}
+.txt img{
+    float: left;
+    width: 300px;
+    border-radius: 15px;
+    margin-right: 15px;
+}
+
+.account{
+    width: 150px;
+    padding: 12px;
+    color: white;
+    text-align: center;
+    display: inline-block;
+    border-left: 1px solid white;
+    border-right: 1px solid white;
+    border-bottom-left-radius: 10px;
+    border-bottom-right-radius: 10px;
+    margin-right: 10%;
+    background: #A20D14;
+}
+
+.account:hover{
+    background: #A20D14;
+    
+}
+.account p{
+    font-family: 'Arial';
+    font-size: 20px;
+    padding: 0;
+    margin: 0;
+    margin-bottom: 8px;
+}
+
+.account ul{
+    display: none;
+    padding: 0;
+    margin: 0;
+}
+
+.account a{
+    font-family: 'Arial';
+    padding: 10px;
+    color: white;
+    margin: 20px;
+    line-height: 50px;
+    text-decoration: none;
+    font-size: 15pt;
+    
+}
+
+.account ul li{
+    list-style: none;
+    width: 100%;
+    height: 50px;
+    margin-bottom: 2px;
+    border-radius: 15px;
+    background: #507490;
+}
+
+.banner{
+    border-radius: 15px;
+  /*  border: 1px solid #507490; */
+}
+
+.banner img{
+    width: 100%;
+    border-radius: 15px;
+}
+
+#ABC8DF
+#98C0DF
+#507490
+#6E8BA2
+#6E9BBE
+
+#A20D14

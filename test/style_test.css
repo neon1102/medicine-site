@@ -1,0 +1,9 @@
+.nav{
+    padding: 40px;
+    background: khaki;
+    display: inline-block;
+}
+
+.nav ul{
+    display: none;
+}
